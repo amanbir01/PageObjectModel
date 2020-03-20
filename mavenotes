@@ -1,0 +1,69 @@
+Maven is a build Automation Tool
+
+
+download link and dependencies link
+
+https://selenium.dev/maven
+
+<dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.141.59</version>
+    </dependency>
+
+
+Testng dependency https://testng.org/doc/maven.html
+
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>6.8</version>
+  <scope>compile</scope>
+</dependency>
+
+
+Apache POI AP https://stackoverflow.com/questions/8202008/required-maven-dependencies-for-apache-poi-to-work
+           <dependency>
+                 <groupId>org.seleniumhq.selenium</groupId>
+                 <artifactId>selenium-java</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi-ooxml</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi-ooxml-schemas</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>poi-scratchpad</artifactId>
+                 <version>3.9</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>ooxml-schemas</artifactId>
+                 <version>1.1</version>
+          </dependency>
+          <dependency>
+                 <groupId>org.apache.poi</groupId>
+                 <artifactId>openxml4j</artifactId>
+                 <version>1.0-beta</version>
+          </dependency>
+          
+          
+          
+          ---------------------------------------------------------------
+          src/main/java
+          create everything inside this
+          
+          scr/test/java
+          we will create testcases

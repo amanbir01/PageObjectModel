@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test NG Practice]" parallel="none">
+  <parameter name="url" value="https://www.google.com"/>
+  <listeners>
+    <listener class-name="Analyzer.MyTransformer"/>
+  </listeners>
+  <test name="Google Access(failed)" parallel="none">
+    <parameter name="url" value="https://www.google.com"/>
+    <classes>
+      <class name="com.crm.qa.testcases.testng">
+        <methods>
+          <include name="openberowser" invocation-numbers="0 0 0 0"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.testng -->
+    </classes>
+  </test> <!-- Google Access(failed) -->
+</suite> <!-- Failed suite [Test NG Practice] -->

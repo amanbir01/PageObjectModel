@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [POM CRM Test SUite]" parallel="none">
+  <listeners>
+    <listener class-name="com.qa.ExtendReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="CRM App testcases(failed)" parallel="none">
+    <classes>
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="createnewcontacttest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- CRM App testcases(failed) -->
+</suite> <!-- Failed suite [POM CRM Test SUite] -->
