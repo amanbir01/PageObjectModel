@@ -12,6 +12,7 @@ public class TestUtil {
 
 	public  static long PAGE_LOAD_TIMEOUT=20;
 	public  static long IMPLICIT_WAIT = 10;
+	int git = 5;
 	
 	//git  ccc dddd
 public static String Testdata_Sheet_Path = "D:\\ASB BEBO\\POM\\src\\main\\java\\com\\crm\\testdata\\contact.xlsx";	
